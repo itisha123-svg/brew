@@ -1,0 +1,330 @@
+*{
+    font-family: Bodoni Moda SC;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+.navbar{
+    height: 77px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: bold;
+    /* position: fixed; */
+    top: 0px;
+    z-index: 3;
+    
+   
+}
+.navbar-brand{
+    font-size: 43px!important;
+}
+
+.carousel-inner{
+    background-image: url(image/shop-thumb-bg.png);
+    background-attachment: fixed;
+}
+.carousel-inner{
+    height: 590px;
+    
+}
+@media  (max-width:504px) {  
+    .carousel-item h1{
+         max-width: 900px; 
+         font-size: 26px;
+        justify-content: center;
+    }
+    .carousel-item img{
+        width: 400px;
+        justify-content: center;
+
+    }
+} 
+    
+
+@media (max-width:396px){
+    .carousel-inner{
+        height: 500px;
+    }
+    .carousel-item img{
+        width: 300px;
+        justify-content: center;
+        display: block;
+}
+}
+.tp-shop-thumb{
+    margin-top: 130px;
+}
+.tp-shop-thumb .row{
+    margin-top: 40px;
+}
+.shop-feature h3{
+    font-size: 60px;
+    font-weight: bold;
+}
+ .shop {
+   font-weight: bold;
+   font-size: 57px;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 30px;
+ }
+
+ .btn{
+    line-height: 20px;
+    height: 47px;
+    font-weight: bold;
+ }
+
+ .tip-shop{
+    position: relative;
+    overflow: hidden;
+ }
+
+ .tip-shop-content {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    color: white;
+ }
+ .tip-shop-btn{
+    position: absolute;
+    bottom:50px ;
+    left: 30px;
+    width: 90px;
+    text-align: center;
+    background-color: white;
+ }
+ .tip-shop-btn a{
+    color: black;
+   
+ }
+ .tp-shop{
+    margin-top: 90px;
+ }
+
+ .tp-shop-product{
+    text-align: center;
+ }
+
+ .tp-shop-product ul{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+  
+ }
+ .tp-shop-product ul  li{
+       width: 24%;
+       font-size: 28px;
+ }
+ .tab-content .product{
+    background-color: rgb(240, 240, 240);
+ }
+ .tab-content{
+    margin-top: 40px;
+ }
+  .tab-content .content-product{
+    position: relative;
+    margin-bottom: 50px;
+ }
+
+ .shop-thumb-tag{
+    position: absolute;
+    top: 0px;
+    background-color: orangered;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 45px;
+    height: 33px;
+ }
+ .shop-product-title{
+    font-weight: bold;
+ }
+ .shop-thumb-tag1{
+    background-color: green;
+    position: absolute;
+    top: 0px;
+  
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 68px;
+    height: 33px;
+ }
+
+ .tp-shop-bg{
+    background-image: url(image/shop-product-10.jpg);
+    background-size: cover;
+    position: relative;
+   
+    height: 180px;
+
+ }
+
+ .tp-shop-ctc-thumb{
+    position: absolute;
+    top: -25px;
+    right: 430px;
+
+
+ }
+
+ .tp-shop-heading h3{
+    font-size: 60px;
+    color: white;
+    text-transform: capitalize;
+ }
+ .tp-shop-bg .row{
+    margin: 80px;
+ }
+ .tp-shop-btn a{
+    color: white;
+    border: 1px solid white;
+   font-size: 30px;
+ }
+
+ .tp-shop-author-title{
+    font-weight: bold;
+ }
+ .tp-shop-author-content h4{
+    font-weight: bold;
+ }
+ .tp-shop-author-thumb img{
+    width: 100%;
+ }
+ 
+ .tp-footer{
+    background-color: rgb(238, 234, 234);
+ }
+ .tp-footer .row ul li{
+    list-style: none;
+    text-align: center;
+
+    
+ }
+
+ .tp-footer-widget-logo h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+ }
+ .tp-footer .row ul li a{
+    color: rgb(248, 241, 241);
+    text-decoration: none;
+    color: white;
+    
+ }
+ .tp-footer .row h4{
+    text-align: center;
+    color: white;
+    font-size: 29px;
+ }
+ .tp-footer-widget {
+    text-align: center;
+    
+ }
+ .tp-footer-widget-title{
+    font-weight: bold;
+ }
+ 
+.page-header{
+   height: 100px;
+   background-color: rgb(240, 133, 10);
+   /* font-weight: bold; */
+   color: white;
+   line-height: 18px;
+   box-shadow: 0px 0px 6px rgb(34, 34, 33);
+}
+.trail-items{
+   list-style: none;
+   margin-left: -30px;
+}
+.trail-begin a{
+   text-decoration: none;
+}
+.page-header-title{
+   font-weight: bold;
+}
+.element-section h2{
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: bolder;
+   font-size: 40px;
+   color: rgb(107, 107, 107);
+   
+}
+
+.element-section i{
+   color: rgb(240, 133, 10);
+   width: 60px;
+   
+   font-size: 67px;
+   
+   
+}
+.element-section{
+   text-transform: capitalize;
+}
+.element-section h3{
+   text-transform: capitalize;
+   font-weight: bolder;
+   font-size: 32px;
+}
+.element-section h1{
+   font-size: 78px;
+   font-weight: bold;
+   color: rgb(240, 133, 10);
+}
+
+.element-section-new .row .clew{
+   background-image: url(image/box-img-compressed.jpg);
+   background-position: center;
+   background-size: cover;
+ 
+}
+.element-section-new .row{
+   height: 270px;
+}
+
+.tp-footer{
+   background: linear-gradient(rgb(1, 20, 54), white);
+}
+
+.contact-inner{
+   text-align: center;
+}
+.element-contact .container{
+   position: relative;
+   top: -80px;
+   background-color: rgb(250, 244, 244);
+  
+
+
+}
+.element-form .container{
+   text-transform: capitalize;
+   font-size: 23px;
+}
+
+.element-form .container h1{
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: bold;
+   font-size: 37px;
+
+}
+.element-form .container .row input{
+   width: 100%;
+   
+}
+.book-store{
+   text-transform: capitalize;
+   
+}
+.book-store .list{
+   line-height: 60px;
+
+}
+.book-store ul{
+   list-style: none;
+}

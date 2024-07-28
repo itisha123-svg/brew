@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">book <span style="color: rgb(16, 73, 179);">store.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  nav-underline" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center ms-auto">
+              <li class="nav-item px-4">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="about.html"> about</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="contatct.html"> contact us</a>
+              </li>
+              <li class="nav-item dropdown px4">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  books
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="category.html">categories</a></li>
+                  <li><a class="dropdown-item" href="index.html"> book store</a></li>
+                  <li><a class="dropdown-item" href="index.html"> trending</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- end -->
+
+      <div  class="carousel slide px-2  ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"   aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active py-lg-5">
+            <div class="container px-auto ">
+                <div class="row">
+                <div class="col-lg-7 col-md-8 col-sm-12 col-xsm-6 justify-content-center text-center">
+                   <img src="image/shop-thumb-3.png" alt=""> 
+                </div>
+                <div class="col-lg-5 col-md-4 col-sm-12 justify-content-center text-center">
+                    <div class=" text text-center py-4">
+                        <span style="color: white; ">sales upto 25$ off</span>
+                        <h1 class="shop"> meet your next favourite book</h1>
+                        <button class="btn btn-lg btn-light "> shop now ></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item py-5">
+            <div class="container px-auto ">
+                <div class="row">
+                <div class="col-lg-7 col-md-8 col-sm-12 col-xsm-6  justify-content-center text-center">
+                   <img src="image/shop-thumb-2.png" alt=""> 
+                </div>
+                <div class="col-4 justify-content-center ">
+                    <div class=" text text-center py-4">
+                        <span style="color: white; ">sales upto 25$ off</span>
+                        <h1 class="shop"> unleash your imagination with books</h1>
+                        <button class="btn btn-lg btn-light "> shop now ></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item py-5">
+            <div class="container px-auto ">
+                <div class="row">
+                <div class="col-lg-7 col-md-8 col-sm-12 col-xsm-6  justify-content-center text-center">
+                   <img src="image/shop-thumb-1.png" alt=""> 
+                </div>
+                <div class="col-4 justify-content-center ">
+                    <div class=" text text-center py-4">
+                        <span style="color: white; ">sales upto 25$ off</span>
+                        <h1 class="shop"> 50% off hundreds of books</h1>
+                        <button class="btn btn-lg btn-light "> shop now ></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+           </div> 
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- end -->
+
+
+      <section class="tp-shop-thumb pt-2 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="shop-feature text-center">
+                        <h3 class="tp-shop-feature-title">Featured Categories</h3>
+                        <p>Aliens, tech marvels, and cosmic wonders await in these mind-bending sagas.</p>
+                     </div>
+
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-md-6 col-lg-4">
+                    <div class="tip-shop mb-25">
+                        <img src="image/shop-feature-1.jpg" alt="">
+                        <div class="tip-shop-content">
+                            <span>fiction</span>
+                            <h3> huge sales! <br> dont miss out</h3>
+                        </div>
+                        <div class="tip-shop-btn"> <a href=""> click here></a> </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="tip-shop mb-4">
+                        <img src="image/shop-feature-2.jpg" alt="">
+                        <div class="tip-shop-content">
+                            <span>novel</span>
+                            <h3> summer sale <br> bozanna</h3>
+                        </div>
+                        <div class="tip-shop-btn"> <a href=""> click here></a> </div>
+                    </div>
+                    <div class="tip-shop mb-3">
+                        <img src="image/shop-feature-3.jpg" alt="">
+                        <div class="tip-shop-content">
+                            <span>novel</span>
+                            <h3> summer sale <br> bozanna</h3>
+                        </div>
+                        <div class="tip-shop-btn"> <a href=""> click here></a> </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="tip-shop ">
+                        <img src="image/shop-feature-4.jpg" alt="">
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- end -->
+
+      <section class="tp-shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tp-shop-product ">
+                        <ul class="justify-content-center mx-5">
+                            <li>new arrival
+                                <span class="ms-4"><img src="image/shop-shape (1).svg" alt=""></span>
+                            </li>
+                            <li class="text-secondary">featured products
+                                <span class="ms-4 "><img src="image/shop-shape (1).svg" alt=""></span>
+                            </li>
+                            <li>best seller
+                                <span class="ms-4"><img src="image/shop-shape (1).svg" alt=""></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content">
+                <div class="row">
+                    <div  class="  col-lg-3 col-sm-6">
+                        <div class="content-product">
+                            <div  class="product"><a href=""> <img src="image/shop-product-1.jpg" alt=""></a> </div>
+                        <div class="shop-thumb-tag">
+                                <span class="hot text-light">Hot</span>
+                         </div>
+                         <div class="tp-shop-product">
+                            <div class="tp-shop-product-tag">
+                               <span>Family Story</span>
+                            </div>
+                            <h4 class="shop-product-title">Nar Allt Ar Over</h4>
+                            <div class="shop-product-price">
+                               <span style="font-size: 25px; font-weight: bold;">$105.00</span>
+                            </div>
+                         </div>
+
+                        </div>
+                        </div>
+                    
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content-product">
+                            <div  class="product"><a href=""> <img src="image/shop-product-2.jpg" alt=""></a> </div>
+                        <div class="shop-thumb-tag1 bg-success">
+                                <span class="hot text-light ">35% off</span>
+                         </div>
+                         <div class="tp-shop-product">
+                            <div class="tp-shop-product-tag">
+                               <span>Family Story</span>
+                            </div>
+                            <h4 class="shop-product-title">Nar Allt Ar Over</h4>
+                            <div class="shop-product-price">
+                               <span style="font-size: 25px; font-weight: bold;">$105.00</span>
+                            </div>
+                         </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content-product">
+                            <div  class="product"><a href=""> <img src="image/shop-product-3.jpg" alt=""></a> </div>
+                        <div class="shop-thumb-tag bg-success">
+                                <span class="hot text-light">Hot</span>
+                         </div>
+                         <div class="tp-shop-product">
+                            <div class="tp-shop-product-tag">
+                               <span>Family Story</span>
+                            </div>
+                            <h4 class="shop-product-title">Nar Allt Ar Over</h4>
+                            <div class="shop-product-price">
+                               <span style="font-size: 25px; font-weight: bold;">$105.00</span>
+                            </div>
+                         </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content-product">
+                            <div  class="product"><a href=""> <img src="image/shop-product-4.jpg" alt=""></a> </div>
+                        <div class="shop-thumb-tag  bg-info">
+                                <span class="hot text-light"> New</span>
+                         </div>
+                         <div class="tp-shop-product">
+                            <div class="tp-shop-product-tag">
+                               <span>Family Story</span>
+                            </div>
+                            <h4 class="shop-product-title">Nar Allt Ar Over</h4>
+                            <div class="shop-product-price">
+                               <span style="font-size: 25px; font-weight: bold;">$105.00</span>
+                            </div>
+                         </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content-product">
+                            <div  class="product"><a href=""> <img src="image/shop-product-5.jpg" alt=""></a> </div>
+                        <div class="shop-thumb-tag">
+                                <span class="hot text-light">Hot</span>
+                         </div>
+                         <div class="tp-shop-product">
+                            <div class="tp-shop-product-tag">
+                               <span>Family Story</span>
+                            </div>
+                            <h4 class="shop-product-title">Nar Allt Ar Over</h4>
+                            <div class="shop-product-price">
+                               <span style="font-size: 25px; font-weight: bold;">$105.00</span>
+                            </div>
+                         </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content-product">
+                            <div  class="product"><a href=""> <img src="image/shop-product-6.jpg" alt=""></a> </div>
+                        <div class="shop-thumb-tag bg-success">
+                                <span class="hot text-light">New</span>
+                         </div>
+                         <div class="tp-shop-product">
+                            <div class="tp-shop-product-tag">
+                               <span>Family Story</span>
+                            </div>
+                            <h4 class="shop-product-title">Nar Allt Ar Over</h4>
+                            <div class="shop-product-price">
+                               <span style="font-size: 25px; font-weight: bold;">$105.00</span>
+                            </div>
+                         </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content-product">
+                            <div  class="product"><a href=""> <img src="image/shop-product-7.jpg" alt=""></a> </div>
+                        <div class="shop-thumb-tag bg-info">
+                                <span class="hot text-light">Hot</span>
+                         </div>
+                         <div class="tp-shop-product">
+                            <div class="tp-shop-product-tag">
+                               <span>Family Story</span>
+                            </div>
+                            <h4 class="shop-product-title">Nar Allt Ar Over</h4>
+                            <div class="shop-product-price">
+                               <span style="font-size: 25px; font-weight: bold;">$105.00</span>
+                            </div>
+                         </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content-product">
+                            <div  class="product"><a href=""> <img src="image/shop-product-8.jpg" alt=""></a> </div>
+                        <div class="shop-thumb-tag">
+                                <span class="hot text-light">Hot</span>
+                         </div>
+                         <div class="tp-shop-product">
+                            <div class="tp-shop-product-tag">
+                               <span>Family Story</span>
+                            </div>
+                            <h4 class="shop-product-title">Nar Allt Ar Over</h4>
+                            <div class="shop-product-price">
+                               <span style="font-size: 25px; font-weight: bold;">$105.00</span>
+                            </div>
+                         </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      <!-- end -->
+
+      <section class="tp-shop mb-5 pb-5">
+        <div class="container">
+            <div class="tp-shop-bg">
+                <div class="tp-shop-ctc-thumb ">
+                    <img src="image/shop-product-9.jpg" alt="">
+
+                </div>
+                <div class="row  align-item-center">
+                    <div class="col-8 pt-4">
+                        <div class="tp-shop-heading">
+                            <span style="font-size: 29px; color: white;">Book festival</span>
+                            <h3 class="tp-shop-cta-title">book of the Year</h3>
+                         </div>
+                    </div>
+                    <div class="col-4 pt-5 justify-content-center">
+                        <div class="tp-shop-btn text-start text-lg-end pt-4">
+                            <a href="shop-grid.html" >Shop Now > <span>
+                              </a>
+                         </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+      </section>
+
+      <!-- end -->
+
+      <section class="tp-shop-author pt-5 mb-5 pb-5">
+        <div class="container">
+           <div class="row">
+              <div class="col-lg-12">
+                 <div class="tp-shop-author-wrap d-flex justify-content-between align-items-center ">
+                    <div class="tp-shop-author-heading">
+                       <h1 class="tp-shop-author-title">Top Author</h1>
+                       <p class="text-secondary">Unravel secrets with author's brilliant plot twists.</p>
+                    </div>
+                    <div class="tp-shop-author-btn  bg-success">
+                       <h3 style="color: white;">All Authors</h3>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="row pt-4">
+              <div class="col-lg-3 col-sm-6">
+                 <div class="tp-shop-author-item text-center mb-30">
+                    <div class="tp-shop-author-thumb">
+                       <img src="image/shop-author-1.png" alt="">
+                    </div>
+                    <div class="tp-shop-author-content">
+                       <span>1,65 Books</span>
+                       <h4 class="tp-shop-author-item-title">Leslie Alexander</h4>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                 <div class="tp-shop-author-item text-center mb-30">
+                    <div class="tp-shop-author-thumb">
+                       <img src="image/shop-author-2.png" alt="">
+                    </div>
+                    <div class="tp-shop-author-content">
+                       <span>1,65 Books</span>
+                       <h4 class="tp-shop-author-item-title">Robert Fox</h4>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                 <div class="tp-shop-author-item text-center mb-30">
+                    <div class="tp-shop-author-thumb">
+                       <img src="image/shop-author-3.png" alt="">
+                    </div>
+                    <div class="tp-shop-author-content">
+                       <span>1,65 Books</span>
+                       <h4 class="tp-shop-author-item-title">Darrell Steward</h4>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                 <div class="tp-shop-author-item text-center ">
+                    <div class="tp-shop-author-thumb">
+                       <img src="image/shop-author-4.png" alt="">
+                    </div>
+                    <div class="tp-shop-author-content">
+                       <span>1,65 Books</span>
+                       <h4 class="tp-shop-author-item-title">Dianne Russell</h4>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+     <!-- end -->
+
+
+     <footer class="footer">
+        <div class="tp-footer">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-4 col-md-4  col-sm-6">
+                    <div class="tp-footer-widget">
+                        <div class="tp-footer-widget-logo mb-20 tp-header-logo">
+                          <h1 >Book <span style="color: blue;">Store.</span></h1>
+                        </div>
+                        <div class="tp-footer-widget-content">
+                           <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing elit.</p>
+                        </div>
+                        <div class="tp-footer-contact-shop">
+                           <span>Got Questions? Call us</span>
+                           <h5>+670 413 90 762</h5>
+                        </div>
+                        <div class="tp-footer-contact-mail shop">
+                           <a href="mailto:acadia@gmail.com"> <h5>acadia@gmail.com</h5></a>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6">
+                    <div class="tp-footer-widget tp-footer-shop-col-2 mb-30">
+                        <h4 class="tp-footer-widget-title ">About</h4>
+                        <div class="tp-footer-widget-link">
+                           <ul>
+                              <li><a href="about.html">About Us</a></li>
+                              <li><a href="#">Courses</a></li>
+                              <li><a href="#">News &amp; Blogs</a></li>
+                              <li><a href="#">Become a Teacher</a></li>
+                              <li><a href="#">Events</a></li>
+                              <li><a href="#">Contact</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-2-lg col-md-2 col-sm-6">
+                    <div class="tp-footer-widget tp-footer-shop-col-3 mb-30">
+                        <h4 class="tp-footer-widget-title ">Quick links</h4>
+                        <div class="tp-footer-widget-link">
+                           <ul>
+                              <li><a href="#">Students</a></li>
+                              <li><a href="#">Addmition</a></li>
+                              <li><a href="#">Faculty &amp; Staffs</a></li>
+                              <li><a href="#">Media Relations</a></li>
+                              <li><a href="#">Alumni</a></li>
+                              <li><a href="#">Visit</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="tp-footer-widget justify-content-center text-align-center">
+                        <h4 class="tp-footer-widget-title">Our Newsletter</h4>
+                        <div class="tp-footer-newsletter-wrap">
+                           <p>Enter your email and we'll send you <br> more information</p>
+                           <form action="#">
+                              <div class="tp-footer-newsletter-wrapper ">
+                                 <div class="tp-footer-newsletter-input">
+                                    <input type="email" placeholder="Your email" fdprocessedid="orqfi">
+                                 </div>
+                                 <div class="tp-footer">
+                                    <button class="btn  btn-success ">Subscribe</button>
+                                 </div>
+                              </div>
+                           </form>
+                           
+                        </div>
+                     </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+     </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
